@@ -1,0 +1,20 @@
+{
+    "name": "queue-project",
+    "version": "1.0.0",
+    "description": "Queue exercise from LinkAPI training",
+    "main": "index.js",
+    "scripts": {
+        "produce": "node src/producer",
+        "consume": "node src/consumer"
+    },
+    "keywords": [
+        "queue",
+        "event-driven-development"
+    ],
+    "author": "Gabriel Moura",
+    "license": "ISC",
+    "dependencies": {
+        "amqplib": "^0.5.6",
+        "dotenv": "^8.2.0"
+    }
+}
